@@ -1,0 +1,41 @@
+
+:root {
+    --color-main: rgba(255,211,193,1);
+    --color-header-text: rgba(119, 138, 171, 0.57);
+    --color-box: #E3E6EB;
+    --bg-color-body: #f4f5f6;
+}
+
+.hero-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+h1{
+    margin: 0;
+    font-size: 70px;
+    color: var(--color-header-text)
+}
+
+.main{
+    margin-top: 50px;
+     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box {
+    height: 325px;
+    width: 325px;
+    border-radius: 5px;
+    background-color: var(--color-box);
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', serif;
+    background-color: var(--bg-color-body);
+}
