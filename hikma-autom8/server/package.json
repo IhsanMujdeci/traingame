@@ -1,0 +1,21 @@
+{
+  "name": "hikma-autom8",
+  "version": "1.0.0",
+  "main": "../web-app/src/api/morton/query.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12",
+    "fastify": "^4.24.3",
+    "isbot": "^3.7.1"
+  },
+  "scripts": {
+    "test": "node --experimental-vm-modules ../node_modules/jest/bin/jest.js",
+    "start": "node src/index.js"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@remix-run/dev": "^2.3.1",
+    "jest": "^29.7.0"
+  }
+}

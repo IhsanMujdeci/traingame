@@ -1,0 +1,40 @@
+.triangle {
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-top: 0;
+  border-bottom: 3000px solid red;
+}
+
+.TriangleBorder{
+  position: relative;
+  z-index: 1;
+  top: 30px;
+  left: 30px;
+}
+
+.arrow-right {
+  width: 0;
+  height: 0;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-left: 600px solid var(--morton-accent-color);
+  position: absolute;
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  border-top: 600px solid var(--morton-accent-color);
+  position: absolute;
+}
+
+.arrow-left {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right:10px solid blue;
+}
